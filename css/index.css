@@ -1,0 +1,393 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+nav a {
+  margin-left: 10rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #00A6FB;
+  margin-top: 3rem;
+}
+@font-face {
+  font-family: 'Tomorrow';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Tomorrow Regular'), local('Tomorrow-Regular'), url(https://fonts.gstatic.com/s/tomorrow/v2/WBLmrETNbFtZCeGqgRXSe2U.ttf) format('truetype');
+}
+header {
+  display: flex;
+  border-bottom: 0.5px solid black;
+}
+header h1 {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 3rem;
+  margin: 2rem;
+  color: #00A6FB;
+  font-family: 'Tomorrow', sans-serif;
+}
+.top .Intro {
+  display: flex;
+  border-bottom: 0.5px solid black;
+}
+.top .Intro .welcome {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  text-align: center;
+}
+.top .Intro h2 {
+  font-size: 3rem;
+  font-family: 'Tomorrow', sans-serif;
+}
+.top .Intro p {
+  font-size: 1.3rem;
+  margin-top: 3rem;
+  margin: 5%;
+  line-height: 4rem;
+}
+.top .Intro .salt-and-spoon {
+  margin: 2%;
+}
+.top .Intro .salt-and-spoon img {
+  display: flex;
+  width: 86%;
+}
+.middle-content1 {
+  display: flex;
+  margin: 1%;
+  flex-direction: row-reverse;
+  border-bottom: 0.5px solid black;
+}
+.middle-content1 h2 {
+  font-size: 2.5rem;
+  margin: 2%;
+  text-align: center;
+  font-family: 'Tomorrow', sans-serif;
+}
+.middle-content1 p {
+  font-size: 1.3rem;
+  margin-top: 3rem;
+  margin: 5%;
+  line-height: 4rem;
+}
+.middle-content1 .salty {
+  display: flex;
+  width: 100%;
+}
+.middle-content1 .salty img {
+  display: flex;
+  height: auto;
+  margin: 5%;
+  width: 80%;
+}
+.middle-content2 {
+  display: flex;
+  margin: 1%;
+  border-bottom: 0.5px solid black;
+}
+.middle-content2 h2 {
+  font-size: 2.5rem;
+  margin: 2%;
+  text-align: center;
+  font-family: 'Tomorrow', sans-serif;
+}
+.middle-content2 p {
+  font-size: 1.3rem;
+  margin-top: 3rem;
+  margin: 5%;
+  line-height: 4rem;
+}
+.middle-content2 .saltyfries {
+  display: flex;
+  width: 100%;
+}
+.middle-content2 .saltyfries img {
+  display: flex;
+  height: auto;
+  margin: 5%;
+  width: 90%;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2%;
+}
+.bottom h2 {
+  font-size: 2.5rem;
+  margin: 2%;
+  text-align: center;
+  font-family: 'Tomorrow', sans-serif;
+}
+.bottom button {
+  font-size: 2rem;
+  margin: 1rem;
+  background-color: #00A6FB;
+  color: white;
+  border-radius: 12px;
+  font-family: 'Tomorrow', sans-serif;
+}
