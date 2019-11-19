@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet');
 
-//variables
+//variables:
+
+
+//mixins:
 @heading-font: 'Tomorrow', sans-serif;
-  
+
+
   header{
 display:flex;
 border-bottom: .5px solid black;
@@ -69,6 +73,16 @@ border-bottom: .5px solid black;
         
     }
   }
+
+  .meet-team{
+      h2{
+          display:flex;
+          justify-content: center;
+          margin: 5rem;
+          font-size: 2rem;
+          font-family: @heading-font;
+      }
+  }
     
 
   
@@ -121,6 +135,28 @@ border-bottom: .5px solid black;
 
 
 
+}
+
+.team-content {
+
+    display:flex;
+    flex-wrap:wrap;
+
+    .team-member{
+
+
+    
+    h4{
+        font-family:@heading-font;
+        font-size:1.5rem;
+    }
+
+    p{
+        padding: 2rem;
+        width: 420px;
+        margin: 20px 0;
+    }
+}
 }
 
 .middle-content2{

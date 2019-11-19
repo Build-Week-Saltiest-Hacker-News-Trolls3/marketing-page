@@ -271,6 +271,10 @@ nav a {
   color: #00A6FB;
   margin-top: 3rem;
 }
+nav a:hover {
+  text-decoration: underline;
+  color: black;
+}
 @font-face {
   font-family: 'Tomorrow';
   font-style: normal;
@@ -316,6 +320,13 @@ header h1 {
   display: flex;
   width: 86%;
 }
+.top .meet-team h2 {
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+  font-size: 2rem;
+  font-family: 'Tomorrow', sans-serif;
+}
 .middle-content1 {
   display: flex;
   margin: 1%;
@@ -343,6 +354,19 @@ header h1 {
   height: auto;
   margin: 5%;
   width: 80%;
+}
+.team-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.team-content .team-member h4 {
+  font-family: 'Tomorrow', sans-serif;
+  font-size: 1.5rem;
+}
+.team-content .team-member p {
+  padding: 2rem;
+  width: 420px;
+  margin: 20px 0;
 }
 .middle-content2 {
   display: flex;
