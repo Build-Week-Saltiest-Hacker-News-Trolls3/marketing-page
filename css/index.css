@@ -358,6 +358,12 @@ header h1 {
 .team-content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-bottom: 0.5px solid black;
+  padding: 3rem;
+}
+.team-content .team-member {
+  margin: 3rem;
 }
 .team-content .team-member h4 {
   font-family: 'Tomorrow', sans-serif;
@@ -367,6 +373,35 @@ header h1 {
   padding: 2rem;
   width: 420px;
   margin: 20px 0;
+}
+.team-content .team-member .Brandon {
+  width: 25rem;
+}
+.team-content .team-member .Nicholas {
+  width: 25rem;
+}
+.team-content .team-member .Zhenya {
+  width: 25rem;
+}
+.team-content .team-member .Cody {
+  width: 25rem;
+}
+.team-content .team-member .Doren {
+  width: 25rem;
+}
+.team-content .team-member .Jessica {
+  width: 25rem;
+}
+.team-content .team-member .Jason {
+  width: 25rem;
+}
+.team-content button {
+  font-size: 0.8rem;
+  margin: 1rem;
+  background-color: #00A6FB;
+  color: white;
+  border-radius: 12px;
+  font-family: 'Tomorrow', sans-serif;
 }
 .middle-content2 {
   display: flex;
