@@ -1,22 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet');
 
 //variables:
-
-
-//mixins:
 @heading-font: 'Tomorrow', sans-serif;
 @border-line: .5px solid black;
 @font-color:   #F56603;
+
+//mixins:
+
+
+
 
 
   header{
 display:flex;
 border-bottom: @border-line;
+background-color:whitesmoke;
 
 @media( max-width: 500px ) {
     flex-direction: column;
     align-items: center;
-    margin:9%;
+    margin:8%;
     
 }
 
@@ -90,7 +93,7 @@ border-bottom: @border-line;
             flex-direction:column;
             justify-content: center;
             align-items:center;
-            margin: 10%;
+           
             
     
         }
@@ -99,6 +102,10 @@ border-bottom: @border-line;
         img{
         
         width:90%;
+
+        @media(max-width:500px){
+            width: 100%;
+        }
 
         }
         
@@ -161,6 +168,7 @@ border-bottom: @border-line;
             flex-direction:column;
             justify-content: center;
             align-items:center;
+            
     
         }
 
@@ -171,6 +179,11 @@ border-bottom: @border-line;
             height: auto;
             margin:5%;
             width:80%;;
+
+            @media( max-width:500px ){
+
+                width:100%;
+            }
     
             }
             
@@ -256,13 +269,15 @@ border-bottom: @border-line;
 }
 
    .team-content button{
+    display:flex;
+    flex-direction: column;
     font-size:.8rem;
     margin:1rem;
     background-color: @font-color;
     color:black;
     border-radius: 12px;
     font-family:@heading-font;    
-    
+   
 }
 
 
@@ -318,6 +333,12 @@ border-bottom: @border-line;
             height: auto;
             margin:5%;
             width:90%;
+
+            @media( max-width:500px ){
+
+                width:100%;
+            }
+    
     
             }
             
@@ -333,8 +354,8 @@ border-bottom: @border-line;
     flex-direction: column;
     align-items: center;
     margin: 2%;
+    background-color:whitesmoke;
     
-
 
     h2{
         font-size: 2.5rem;
