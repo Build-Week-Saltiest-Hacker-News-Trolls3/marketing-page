@@ -333,7 +333,7 @@ header h1 {
   font-family: 'Tomorrow', sans-serif;
 }
 .top .Intro p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-top: 3rem;
   margin: 5%;
   line-height: 4rem;
@@ -379,7 +379,7 @@ header h1 {
   font-family: 'Tomorrow', sans-serif;
 }
 .middle-content1 p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-top: 3rem;
   margin: 5%;
   line-height: 4rem;
@@ -411,7 +411,6 @@ header h1 {
   flex-wrap: wrap;
   justify-content: space-evenly;
   border-bottom: 0.5px solid black;
-  padding: 3rem;
 }
 .team-content .team-member {
   margin: 4rem;
@@ -424,11 +423,13 @@ header h1 {
 .team-content .team-member h4 {
   font-family: 'Tomorrow', sans-serif;
   font-size: 1.5rem;
+  margin: 5%;
 }
 .team-content .team-member p {
   padding: 2rem;
   width: 420px;
   margin: 20px 0;
+  font-size: 1.2rem;
 }
 .team-content .team-member .Brandon {
   width: 25rem;
@@ -478,7 +479,7 @@ header h1 {
   font-family: 'Tomorrow', sans-serif;
 }
 .middle-content2 p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-top: 3rem;
   margin: 5%;
   line-height: 4rem;
