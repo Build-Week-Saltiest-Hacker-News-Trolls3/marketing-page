@@ -6,11 +6,18 @@
 //mixins:
 @heading-font: 'Tomorrow', sans-serif;
 @border-line: .5px solid black;
+@font-color:   #F56603;
 
 
   header{
 display:flex;
 border-bottom: @border-line;
+
+@media(max-width: 500px){
+    flex-direction:column;
+    align-items:center;
+    
+}
 
 
 
@@ -19,7 +26,7 @@ border-bottom: @border-line;
       justify-content: flex-start;
       font-size:3rem;
       margin:2rem;
-      color:#00A6FB;
+      color: @font-color;
       font-family:@heading-font;    
 
       
@@ -145,11 +152,12 @@ border-bottom: @border-line;
     justify-content: space-evenly;
     border-bottom: @border-line;
     padding:3rem;
+
     
 }
 
    .team-content .team-member{
-        margin:3rem;
+        margin:4rem;
 
     
     h4{
@@ -174,7 +182,7 @@ border-bottom: @border-line;
    }
 
    .team-content .team-member .Zhenya{
-       width:25rem;
+       width:24rem;
    }
    .team-content .team-member .Cody{
     width:25rem;
@@ -195,8 +203,8 @@ border-bottom: @border-line;
    .team-content button{
     font-size:.8rem;
     margin:1rem;
-    background-color: #00A6FB;
-    color:white;
+    background-color: @font-color;
+    color:black;
     border-radius: 12px;
     font-family:@heading-font;    
     
@@ -271,8 +279,8 @@ border-bottom: @border-line;
     button{
         font-size:2rem;
         margin:1rem;
-        background-color: #00A6FB;
-        color:white;
+        background-color: @font-color;
+        color:black;
         border-radius: 12px;
         font-family:@heading-font;    
     }

@@ -264,11 +264,17 @@ nav {
   display: flex;
   justify-content: flex-end;
 }
+@media (max-width: 500px) {
+  nav {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 nav a {
   margin-left: 10rem;
   font-size: 1.2rem;
   text-decoration: none;
-  color: #00A6FB;
+  color: #F56603;
   margin-top: 3rem;
 }
 nav a:hover {
@@ -285,12 +291,18 @@ header {
   display: flex;
   border-bottom: 0.5px solid black;
 }
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 header h1 {
   display: flex;
   justify-content: flex-start;
   font-size: 3rem;
   margin: 2rem;
-  color: #00A6FB;
+  color: #F56603;
   font-family: 'Tomorrow', sans-serif;
 }
 .top .Intro {
@@ -363,7 +375,7 @@ header h1 {
   padding: 3rem;
 }
 .team-content .team-member {
-  margin: 3rem;
+  margin: 4rem;
 }
 .team-content .team-member h4 {
   font-family: 'Tomorrow', sans-serif;
@@ -381,7 +393,7 @@ header h1 {
   width: 25rem;
 }
 .team-content .team-member .Zhenya {
-  width: 25rem;
+  width: 24rem;
 }
 .team-content .team-member .Cody {
   width: 25rem;
@@ -398,8 +410,8 @@ header h1 {
 .team-content button {
   font-size: 0.8rem;
   margin: 1rem;
-  background-color: #00A6FB;
-  color: white;
+  background-color: #F56603;
+  color: black;
   border-radius: 12px;
   font-family: 'Tomorrow', sans-serif;
 }
@@ -445,8 +457,8 @@ header h1 {
 .bottom button {
   font-size: 2rem;
   margin: 1rem;
-  background-color: #00A6FB;
-  color: white;
+  background-color: #F56603;
+  color: black;
   border-radius: 12px;
   font-family: 'Tomorrow', sans-serif;
 }

@@ -1,14 +1,24 @@
 nav{
     display:flex;
     justify-content: flex-end;
+
+    @media (max-width:500px){
+            justify-content: space-between;
+            align-items: center;
+            
+        }
     
+
+
+   
 
     a{
         margin-left:10rem;
         font-size:1.2rem;
         text-decoration:none;
-        color:#00A6FB;
+        color:@font-color;
         margin-top: 3rem;
+        
         
         
         
