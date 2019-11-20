@@ -501,19 +501,19 @@ header h1 {
   margin: 5%;
   width: 90%;
 }
-.bottom {
+.button-class {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 2%;
 }
-.bottom h2 {
+.button-class h2 {
   font-size: 2.5rem;
   margin: 2%;
   text-align: center;
   font-family: 'Tomorrow', sans-serif;
 }
-.bottom button {
+.button-class button {
   font-size: 2rem;
   margin: 1rem;
   background-color: #F56603;
