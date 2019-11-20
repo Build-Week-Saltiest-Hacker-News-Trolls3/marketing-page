@@ -309,6 +309,13 @@ header h1 {
   display: flex;
   border-bottom: 0.5px solid black;
 }
+@media (max-width: 500px) {
+  .top .Intro {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .top .Intro .welcome {
   display: flex;
   flex-direction: column;
@@ -328,9 +335,16 @@ header h1 {
 .top .Intro .salt-and-spoon {
   margin: 2%;
 }
+@media (max-width: 500px) {
+  .top .Intro .salt-and-spoon {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+  }
+}
 .top .Intro .salt-and-spoon img {
-  display: flex;
-  width: 86%;
+  width: 90%;
 }
 .top .meet-team h2 {
   display: flex;
@@ -344,6 +358,13 @@ header h1 {
   margin: 1%;
   flex-direction: row-reverse;
   border-bottom: 0.5px solid black;
+}
+@media (max-width: 500px) {
+  .middle-content1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .middle-content1 h2 {
   font-size: 2.5rem;
@@ -361,6 +382,13 @@ header h1 {
   display: flex;
   width: 100%;
 }
+@media (max-width: 500px) {
+  .middle-content1 .salty {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .middle-content1 .salty img {
   display: flex;
   height: auto;
@@ -376,6 +404,11 @@ header h1 {
 }
 .team-content .team-member {
   margin: 4rem;
+}
+@media (max-width: 500px) {
+  .team-content .team-member {
+    margin: 2rem;
+  }
 }
 .team-content .team-member h4 {
   font-family: 'Tomorrow', sans-serif;
@@ -420,6 +453,13 @@ header h1 {
   margin: 1%;
   border-bottom: 0.5px solid black;
 }
+@media (max-width: 500px) {
+  .middle-content2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .middle-content2 h2 {
   font-size: 2.5rem;
   margin: 2%;
@@ -435,6 +475,13 @@ header h1 {
 .middle-content2 .saltyfries {
   display: flex;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .middle-content2 .saltyfries {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .middle-content2 .saltyfries img {
   display: flex;
