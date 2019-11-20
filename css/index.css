@@ -335,6 +335,7 @@ header h1 {
 }
 .top .Intro p {
   font-size: 2rem;
+  color: black;
   margin-top: 3rem;
   margin: 5%;
   line-height: 4rem;
@@ -385,6 +386,7 @@ header h1 {
 }
 .middle-content1 p {
   font-size: 1.3rem;
+  color: black;
   margin-top: 3rem;
   margin: 5%;
   line-height: 4rem;
